@@ -39,9 +39,10 @@
 }
 
 body{
-  height: 100vh;
+  min-height: 100svh;
   place-content: center;
   background-color: var(--cc-dark-background);
+  overflow: hidden;
 }
 
 .container{
