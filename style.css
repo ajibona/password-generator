@@ -91,12 +91,14 @@ h1{
 
 .copy__svg p{
   position: absolute;
+  display: none;
   top: 50%;
   right: 3.2rem;
   transform: translate(0, -50%);
   font-style: italic;
   color: #8b879c68;
   user-select: none;
+  transition: all .2s ease;
 }
 
 .copy__svg svg:active{
@@ -150,6 +152,7 @@ h1{
   background-color: var(--cc-dark-background);
   accent-color: var(--cc-light-green);
   cursor: pointer;
+  transition: all .2s ease;
 }
 
 .slider input[type="range"]::-webkit-slider-thumb{
@@ -298,8 +301,8 @@ h1{
   text-transform: uppercase;
   display: flex;
   align-items: center;
-  justify-content: center;
   color: var(--cc-dark-background);
+  justify-content: center;
   gap: 20px;
   background-color: var(--cc-light-green);
   font-weight: bold;
