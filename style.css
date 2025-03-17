@@ -299,6 +299,7 @@ h1{
   display: flex;
   align-items: center;
   justify-content: center;
+  color: var(--cc-dark-background);
   gap: 20px;
   background-color: var(--cc-light-green);
   font-weight: bold;
@@ -306,6 +307,10 @@ h1{
   outline: none;
   cursor: pointer;
   transition: all .2s ease;
+ }
+
+ button svg{
+  fill: var(--cc-dark-background);
  }
 
  button:hover{
